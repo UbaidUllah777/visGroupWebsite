@@ -21,7 +21,7 @@ const allServices = [
     servicePara4:
       "We offer among other services, a complete set of network benchmarking services through Field-Testing (Drive and Walk Tests). Drive test is performed in cities, towns, and on roads, while walk test is performed in public areas like airports, shopping malls, etc. For every area, we have weighted scores which will be added to calculate the total score for each operator. As per customer requirements, key performance indicators (KPIs) are decided within the project scope, which determines the team configuration and size. To achieve the desired results and to identify the loopholes in the service quality our Professionals Field Engineers collect the data, which is then analyzed by our radio network experts and presented to the customer in the form of reports against their KPIs.We have successfully performed different drive and walk tests campaigns for various clients in the whole EU, in countries such as Germany, the Netherlands, Sweden, Italy, France, the UK,  UAE, Kuwait, the Kingdom of Saudi Arabia, Qatar, and many more. We use the latest mobile devices, high-end drive test tools, and RF scanners for measurements around the globe.",
     serviceImage:
-      "img/demos/digital-agency-2/our-services/our-services-detail-1.jpeg",
+      "img/demos/digital-agency-2/our-services/our-services-detail-1.jpg",
     sercicetagLines: [
       {
         tag1: "tag Line One",
