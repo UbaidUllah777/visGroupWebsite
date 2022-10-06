@@ -69,7 +69,7 @@ const allServices = [
       "Mobile network operators focus on the tests which ensure that new devices will work well in their networks. However, testing new devices for conformance and interoperability is hardly feasible. By relying on GCF Certification, operators can be sure that the core functionalities of a new device fulfill their requirements. GCF Certification is a plus for selling devices to operators or retailers, especially in Europe and Asia.",
     servicePara4:
       "We assist manufacturers in the process of obtaining GCF Certification. Along with our authorized partners, we develop test cases to cover the functionalities of a device and conduct Field Testing and Interoperability Testing. The results are documented and submitted for review to obtain the certification.",
-    serviceImage: "",
+    serviceImage: "img/demos/digital-agency-2/our-services/GCFservice.jpg",
     sercicetagLines: [
       {
         tag1: "tag Line One",
@@ -115,7 +115,8 @@ const allServices = [
       "Tuner & Media solutions in cars are becoming increasingly complex. Mobile internet, traffic information, navigation, digital broadcast, and streaming services are all combined in one system. Each service requires its antennas. To ensure the correct functionality of each part of the infotainment system and to discover sources and effects of interference, we offer a complete set of test and measurement solutions for multimedia, audio, antennas, and navigation services. With the vast number of available broadcast, wireless and cellular standards as well as different audio and video file formats and codecs, manufacturers of infotainment systems need to ensure the correct functionality, even in the presence of interference.",
     servicePara4:
       "We Offer “Tuner & Media” Test Solutions For:All analog and digital broadcasting standards, Compliance testing for the radio equipment directive (RED) for AM, FM, DAB, DRM, Wi-Fi, Bluetooth®, LTE, GNSS, radar, and much more, Conformance testing for HDMI interfaces and Ethernet (100BASE-T1 and 1000 BASE-T1),Audio speaker setup testing, Complex receiver diversity test scenarios (1x2, 1x3, and 1x4), Realistic generation of dynamic navigation scenarios and Production testing for infotainment systems (multichannel generator using radio, LTE, Wi-Fi, GNSS signals, etc).",
-    serviceImage: "",
+    serviceImage:
+      "img/demos/digital-agency-2/our-services/TunerAndMediaService.jpg",
     sercicetagLines: [
       {
         tag1: "tag Line One",
