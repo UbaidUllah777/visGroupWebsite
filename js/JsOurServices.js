@@ -92,7 +92,7 @@ const allServices = [
       "GPS navigation is a common feature in automobiles now. Drivers rely on this to find unfamiliar locations and find the route to reach that destination. Beyond this fundamental duty of the GPS navigator, present-day navigators provide many new features such as the alternative route to the same location, redirecting routes, routes avoiding tolls, ferries, other points of interest, etc.",
     servicePara4:
       "There are a series of fundamental receiver performance parameters applicable to GPS systems such as sensitivity, time to first fix and reacquisition time, etc. Our talented team of test engineers and test managers run test cases based on all these parameters to evaluate the performance of the GPS system and thus help the manufacturers to find out errors in their system and to rectify them, to provide customers a better experience.",
-    serviceImage: "",
+    serviceImage: "img/demos/digital-agency-2/our-services/GPSservice.jpg",
     sercicetagLines: [
       {
         tag1: "tag Line One",
@@ -139,7 +139,7 @@ const allServices = [
       "These HMI and associated functionalities provide huge opportunities for unique branding and differentiation in the market and help in a competitive advantage for manufacturers. This includes traditional radio tuners on the low end to complex infotainment systems controlled through large touch panel displays.",
     servicePara4:
       "Although the range of HMI functionalities is quite broad. However, they share many common design challenges. We test HMI software systems to ensure that complex technical features are perfectly interlinked to each other, as well the interfacing between different applications is easy and smooth for drivers to perform actions. Also, we help the developers in the localization of HMI in different markets.",
-    serviceImage: "",
+    serviceImage: "img/demos/digital-agency-2/our-services/HMIservice.jpg",
     sercicetagLines: [
       {
         tag1: "tag Line One",
@@ -162,7 +162,8 @@ const allServices = [
       "This type of software testing is the simplest one but helps to detect critical bugs and system vulnerabilities. It doesn't require knowledge of specific automated tools but a set of special skills and a thorough understanding of the project requirements. In other words, manual testing can be defined as a process of software testing performed from the end-user's perspective in order to detect existing defects and provide a high level of product quality.",
     servicePara4:
       "Our team of experienced test engineers and developers leverage their knowledge to check and validate your application for bugs and defects to smoothen your development. ",
-    serviceImage: "",
+    serviceImage:
+      "img/demos/digital-agency-2/our-services/manualTestingService.jpg",
     sercicetagLines: [
       {
         tag1: "tag Line One",
@@ -182,7 +183,8 @@ const allServices = [
     servicePara2: "",
     servicePara3: "",
     servicePara4: "",
-    serviceImage: "",
+    serviceImage:
+      "img/demos/digital-agency-2/our-services/automationTestingService.jpg",
     sercicetagLines: [
       {
         tag1: "tag Line One",
@@ -206,7 +208,8 @@ const allServices = [
       "Our developers and engineers leverage agile practices to develop innovative & powerful web applications, high-level mobile applications, and any other custom applications to meet the specified requirements and market needs.",
     servicePara4:
       "So, Hire us for your digital transformation adventure; we will make it a smooth ride for you. One of the most visible advantages of a custom solution is that it eliminates any further investments in the shape of commercial-of-the-shelf products. ",
-    serviceImage: "",
+    serviceImage:
+      "img/demos/digital-agency-2/our-services/SWdevelopmentService.jpg",
     sercicetagLines: [
       {
         tag1: "tag Line One",
