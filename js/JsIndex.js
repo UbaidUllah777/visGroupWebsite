@@ -5,4 +5,6 @@ const ElIdFieldPerformanceTesting = document.getElementById(
   "IdFieldPerformanceTesting"
 );
 
-const allServices = [];
+const FnSetServiceId = (serciceId) => {
+  sessionStorage.setItem("service Id", serciceId);
+};
