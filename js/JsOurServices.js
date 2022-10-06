@@ -8,6 +8,7 @@ const ElserviceImage = document.getElementById("serviceImage");
 const clickedServiceId = sessionStorage.getItem("service");
 
 const allServices = [
+  // Network Benchmark Testing
   {
     serciceId: "IdNetworkBenchmarkTesting",
     serviceHeading: "Network Benchmark Testing",
@@ -32,6 +33,7 @@ const allServices = [
     serviceDevelopment: "Some Text about  service Development",
     ServiceDelivery: "Some Text about Service Delivery",
   },
+  // Field Performance Testing
   {
     serciceId: "IdFieldPerformanceTesting",
     serviceHeading: "Field Performance Testing",
@@ -52,9 +54,130 @@ const allServices = [
     serviceDevelopment: "Some Text about  service Development",
     ServiceDelivery: "Some Text about Service Delivery",
   },
+  //GCF
   {
-    serciceId: "",
-    serviceHeading: "",
+    serciceId: "IdGlobalCertificationForum",
+    serviceHeading: "Global Certification Forum",
+    servicePara1: "",
+    servicePara2: "",
+    servicePara3: "",
+    servicePara4: "",
+    serviceImage: "",
+    sercicetagLines: [
+      {
+        tag1: "tag Line One",
+        tag2: "tagLine Two",
+        tag3: "TagLine Three",
+      },
+    ],
+    serviceAnalysis: "Some Text about service analysis",
+    serviceDevelopment: "Some Text about  service Development",
+    ServiceDelivery: "Some Text about Service Delivery",
+  },
+  //GPS
+  {
+    serciceId: "IdGPStesting",
+    serviceHeading: "G P S Testing",
+    servicePara1: "",
+    servicePara2: "",
+    servicePara3: "",
+    servicePara4: "",
+    serviceImage: "",
+    sercicetagLines: [
+      {
+        tag1: "tag Line One",
+        tag2: "tagLine Two",
+        tag3: "TagLine Three",
+      },
+    ],
+    serviceAnalysis: "Some Text about service analysis",
+    serviceDevelopment: "Some Text about  service Development",
+    ServiceDelivery: "Some Text about Service Delivery",
+  },
+  //Tuner and Media
+  {
+    serciceId: "IdTunerAndMediaTesting",
+    serviceHeading: "Tuner & Media Testing",
+    servicePara1: "",
+    servicePara2: "",
+    servicePara3: "",
+    servicePara4: "",
+    serviceImage: "",
+    sercicetagLines: [
+      {
+        tag1: "tag Line One",
+        tag2: "tagLine Two",
+        tag3: "TagLine Three",
+      },
+    ],
+    serviceAnalysis: "Some Text about service analysis",
+    serviceDevelopment: "Some Text about  service Development",
+    ServiceDelivery: "Some Text about Service Delivery",
+  },
+  //HMI
+  {
+    serciceId: "IdHMItesting",
+    serviceHeading: "H M I Testing",
+    servicePara1: "",
+    servicePara2: "",
+    servicePara3: "",
+    servicePara4: "",
+    serviceImage: "",
+    sercicetagLines: [
+      {
+        tag1: "tag Line One",
+        tag2: "tagLine Two",
+        tag3: "TagLine Three",
+      },
+    ],
+    serviceAnalysis: "Some Text about service analysis",
+    serviceDevelopment: "Some Text about  service Development",
+    ServiceDelivery: "Some Text about Service Delivery",
+  },
+  //Manual Testing
+  {
+    serciceId: "IdManualTesting",
+    serviceHeading: "Manual Testing",
+    servicePara1: "",
+    servicePara2: "",
+    servicePara3: "",
+    servicePara4: "",
+    serviceImage: "",
+    sercicetagLines: [
+      {
+        tag1: "tag Line One",
+        tag2: "tagLine Two",
+        tag3: "TagLine Three",
+      },
+    ],
+    serviceAnalysis: "Some Text about service analysis",
+    serviceDevelopment: "Some Text about  service Development",
+    ServiceDelivery: "Some Text about Service Delivery",
+  },
+  //Automation Testing
+  {
+    serciceId: "IdAutomationTesting",
+    serviceHeading: "Automation Testing",
+    servicePara1: "",
+    servicePara2: "",
+    servicePara3: "",
+    servicePara4: "",
+    serviceImage: "",
+    sercicetagLines: [
+      {
+        tag1: "tag Line One",
+        tag2: "tagLine Two",
+        tag3: "TagLine Three",
+      },
+    ],
+    serviceAnalysis: "Some Text about service analysis",
+    serviceDevelopment: "Some Text about  service Development",
+    ServiceDelivery: "Some Text about Service Delivery",
+  },
+  //Software Development
+  {
+    serciceId: "IdSoftwareDevelopment",
+    serviceHeading: "Software Development",
     servicePara1: "",
     servicePara2: "",
     servicePara3: "",
