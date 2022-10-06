@@ -6,5 +6,5 @@ const ElIdFieldPerformanceTesting = document.getElementById(
 );
 
 const FnSetServiceId = (serciceId) => {
-  sessionStorage.setItem("service Id", serciceId);
+  sessionStorage.setItem("service", serciceId);
 };

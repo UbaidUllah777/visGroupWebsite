@@ -71,7 +71,8 @@
 
     <!-- Head Libs -->
     <script src="vendor/modernizr/modernizr.min.js"></script>
-    <script src="js/JsIndex.js"></script>
+
+    <script src="js/JsIndex.js" defer></script>
   </head>
   <body>
     <div class="body">
@@ -153,6 +154,7 @@
                               </li>
                               <li>
                                 <a
+                                  onclick="FnSetServiceId('IdFieldPerformanceTesting')"
                                   id="IdFieldPerformanceTesting"
                                   class="dropdown-item font-weight-normal"
                                   href="ourServices-detail.html"
@@ -612,7 +614,12 @@
                 data-appear-animation="fadeInRightShorter"
                 data-appear-animation-delay="200"
               >
-                <a href="ourServices-detail.html" class="text-decoration-none">
+                <a
+                  id="IdNetworkBenchmarkTesting"
+                  onclick="FnSetServiceId('IdNetworkBenchmarkTesting')"
+                  href="ourServices-detail.html"
+                  class="text-decoration-none"
+                >
                   <div
                     class="service-card mb-4 bg-color-tertiary bg-color-hover-primary text-color-hover-light w-100 font-weight-semibold custom-text-6 line-height-6 text-color-dark p-relative"
                   >
@@ -625,7 +632,12 @@
                 data-appear-animation="fadeInRightShorter"
                 data-appear-animation-delay="300"
               >
-                <a href="ourServices-detail.html" class="text-decoration-none">
+                <a
+                  onclick="FnSetServiceId('IdFieldPerformanceTesting')"
+                  id="IdFieldPerformanceTesting"
+                  href="ourServices-detail.html"
+                  class="text-decoration-none"
+                >
                   <div
                     class="service-card mb-4 bg-color-dark bg-color-hover-primary w-100 font-weight-semibold custom-text-6 line-height-6 text-color-light p-relative"
                   >
