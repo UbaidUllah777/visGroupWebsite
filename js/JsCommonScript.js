@@ -31,7 +31,7 @@ ElAddGerCompany.textContent = `Vision PS GmbH`;
 ElAddGerPhone.textContent = `+4920334689340`;
 ElAddGerEmail.textContent = `info@vision-ps.de`;
 
-ElAddOtherLocationsHead.textContent = `Dubai`;
+ElAddOtherLocationsHead.textContent = `Other Locations`;
 ElAddOtherLoc1.textContent = `Romania`;
 ElAddOtherLoc2.textContent = `United Kingdom`;
 ElAddOtherLoc3.textContent = `UAE`;
