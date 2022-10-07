@@ -179,17 +179,21 @@ const allServices = [
   {
     serciceId: "IdAutomationTesting",
     serviceHeading: "Automation Testing",
-    servicePara1: "",
-    servicePara2: "",
-    servicePara3: "",
-    servicePara4: "",
+    servicePara1:
+      "Explore and implement viable automated quality assurance and testing services with Vis Group",
+    servicePara2:
+      "We automate and put your testing process on auto-pilot, however, we monitor and receive frequent and consistent test reports that benchmarks your system performance. ",
+    servicePara3:
+      "Automated testing is commonly referred to as automation testing an emerging and dominant type of testing in the digital product testing world. automation testing provides tools and frameworks for testing and inspections of digital solutions.",
+    servicePara4:
+      "Automated testing is a great way to optimize QA resources.  Vis Group will work with you to create a custom automation testing schedule, provide quick feedback on weak spots, and share ideas for software improvement. Thus, you’ll be able to collect meaningful data for the development team, accelerate software updates, and fast-track product releases.",
     serviceImage:
       "img/demos/digital-agency-2/our-services/automationTestingService.jpg",
     sercicetagLines: [
       {
-        tag1: "tag Line One",
-        tag2: "tagLine Two",
-        tag3: "TagLine Three",
+        tag1: "Automated QA managed Services",
+        tag2: "we cover wide range of technology stack",
+        tag3: "Higher testing and efficiency",
       },
     ],
     serviceAnalysis: "Some Text about service analysis",
