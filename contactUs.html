@@ -702,7 +702,8 @@
                   Send us a Message
                 </h4>
                 <form
-                  class="contact-form"
+                  id="contactForm"
+                  class="contact-form-recaptcha-v3"
                   action="php/contact-form.php"
                   method="POST"
                 >
@@ -714,6 +715,7 @@
 
                   <div
                     class="contact-form-error alert alert-danger d-none mt-4"
+                    id="contactError"
                   >
                     <strong>Error!</strong> There was an error sending your
                     message.
