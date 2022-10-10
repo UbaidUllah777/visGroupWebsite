@@ -102,7 +102,7 @@ Theme Version:	9.8.0
 
           if (data.response == "success") {
             // Uncomment the code below to redirect for a thank you page
-            self.location = "thank-you.html";
+            // self.location = 'thank-you.html';
 
             $messageSuccess.removeClass("d-none");
             $messageError.addClass("d-none");
