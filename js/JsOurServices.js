@@ -4,6 +4,9 @@ const ElserviceParaTwo = document.querySelector(".serviceParaTwo");
 const ElserviceParaThree = document.querySelector(".serviceParaThree");
 const ElserviceParaFour = document.querySelector(".serviceParaFour");
 const ElserviceImage = document.getElementById("serviceImage");
+const ElserviceTag1 = document.getElementById("serviceTag1");
+const ElserviceTag2 = document.getElementById("serviceTag2");
+const ElserviceTag3 = document.getElementById("serviceTag3");
 
 const clickedServiceId = sessionStorage.getItem("service");
 
@@ -22,13 +25,11 @@ const allServices = [
       "We offer among other services, a complete set of network benchmarking services through Field-Testing (Drive and Walk Tests). Drive test is performed in cities, towns, and on roads, while walk test is performed in public areas like airports, shopping malls, etc. For every area, we have weighted scores which will be added to calculate the total score for each operator. As per customer requirements, key performance indicators (KPIs) are decided within the project scope, which determines the team configuration and size. To achieve the desired results and to identify the loopholes in the service quality our Professionals Field Engineers collect the data, which is then analyzed by our radio network experts and presented to the customer in the form of reports against their KPIs.We have successfully performed different drive and walk tests campaigns for various clients in the whole EU, in countries such as Germany, the Netherlands, Sweden, Italy, France, the UK,  UAE, Kuwait, the Kingdom of Saudi Arabia, Qatar, and many more. We use the latest mobile devices, high-end drive test tools, and RF scanners for measurements around the globe.",
     serviceImage:
       "img/demos/digital-agency-2/our-services/our-services-detail-1.jpg",
-    sercicetagLines: [
-      {
-        tag1: "tag Line One",
-        tag2: "tagLine Two",
-        tag3: "TagLine Three",
-      },
-    ],
+
+    tag1: "tag Line One",
+    tag2: "tagLine Two",
+    tag3: "TagLine Three",
+
     serviceAnalysis: "Some Text about service analysis",
     serviceDevelopment: "Some Text about  service Development",
     ServiceDelivery: "Some Text about Service Delivery",
@@ -47,13 +48,11 @@ const allServices = [
       "Our field test team executes mobile devices Field Testing in the designated market. Field tests consist of stationary and mobility testing. Stationary Testing: Stationary field testing is a type of mobile device field testing; where test cases are executed in stationary mode and pre-identified geographical locations.  The main goal of such testing is to ensure that the mobile device behaves according to operator and country specifications. Mobility Testing :Mobility test cases run in mobile testing vehicles. Mobility testing covers different network protocols. It measures the device's data downloading and uploading capabilities, calls functionality, and success rate, on a predefined route. Handovers; and performances in weak field conditions, as well as in varying strengths, are also tested within the scope of mobility testing.",
     serviceImage:
       "img/demos/digital-agency-2/our-services/fieldTestingServices.jpg",
-    sercicetagLines: [
-      {
-        tag1: "",
-        tag2: "",
-        tag3: "",
-      },
-    ],
+
+    tag1: "tag Line One",
+    tag2: "tagLine Two",
+    tag3: "TagLine Three",
+
     serviceAnalysis: "Some Text about service analysis",
     serviceDevelopment: "Some Text about  service Development",
     ServiceDelivery: "Some Text about Service Delivery",
@@ -70,13 +69,9 @@ const allServices = [
     servicePara4:
       "We assist manufacturers in the process of obtaining GCF Certification. Along with our authorized partners, we develop test cases to cover the functionalities of a device and conduct Field Testing and Interoperability Testing. The results are documented and submitted for review to obtain the certification.",
     serviceImage: "img/demos/digital-agency-2/our-services/GCFservice.jpg",
-    sercicetagLines: [
-      {
-        tag1: "tag Line One",
-        tag2: "tagLine Two",
-        tag3: "TagLine Three",
-      },
-    ],
+    tag1: "tag Line One",
+    tag2: "tagLine Two",
+    tag3: "TagLine Three",
     serviceAnalysis: "Some Text about service analysis",
     serviceDevelopment: "Some Text about  service Development",
     ServiceDelivery: "Some Text about Service Delivery",
@@ -93,13 +88,9 @@ const allServices = [
     servicePara4:
       "There are a series of fundamental receiver performance parameters applicable to GPS systems such as sensitivity, time to first fix and reacquisition time, etc. Our talented team of test engineers and test managers run test cases based on all these parameters to evaluate the performance of the GPS system and thus help the manufacturers to find out errors in their system and to rectify them, to provide customers a better experience.",
     serviceImage: "img/demos/digital-agency-2/our-services/GPSservice.jpg",
-    sercicetagLines: [
-      {
-        tag1: "tag Line One",
-        tag2: "tagLine Two",
-        tag3: "TagLine Three",
-      },
-    ],
+    tag1: "tag Line One",
+    tag2: "tagLine Two",
+    tag3: "TagLine Three",
     serviceAnalysis: "Some Text about service analysis",
     serviceDevelopment: "Some Text about  service Development",
     ServiceDelivery: "Some Text about Service Delivery",
@@ -117,13 +108,9 @@ const allServices = [
       "We Offer “Tuner & Media” Test Solutions For:All analog and digital broadcasting standards, Compliance testing for the radio equipment directive (RED) for AM, FM, DAB, DRM, Wi-Fi, Bluetooth®, LTE, GNSS, radar, and much more, Conformance testing for HDMI interfaces and Ethernet (100BASE-T1 and 1000 BASE-T1),Audio speaker setup testing, Complex receiver diversity test scenarios (1x2, 1x3, and 1x4), Realistic generation of dynamic navigation scenarios and Production testing for infotainment systems (multichannel generator using radio, LTE, Wi-Fi, GNSS signals, etc).",
     serviceImage:
       "img/demos/digital-agency-2/our-services/TunerAndMediaService.jpg",
-    sercicetagLines: [
-      {
-        tag1: "tag Line One",
-        tag2: "tagLine Two",
-        tag3: "TagLine Three",
-      },
-    ],
+    tag1: "tag Line One",
+    tag2: "tagLine Two",
+    tag3: "TagLine Three",
     serviceAnalysis: "Some Text about service analysis",
     serviceDevelopment: "Some Text about  service Development",
     ServiceDelivery: "Some Text about Service Delivery",
@@ -140,13 +127,9 @@ const allServices = [
     servicePara4:
       "Although the range of HMI functionalities is quite broad. However, they share many common design challenges. We test HMI software systems to ensure that complex technical features are perfectly interlinked to each other, as well the interfacing between different applications is easy and smooth for drivers to perform actions. Also, we help the developers in the localization of HMI in different markets.",
     serviceImage: "img/demos/digital-agency-2/our-services/HMIservice.jpg",
-    sercicetagLines: [
-      {
-        tag1: "tag Line One",
-        tag2: "tagLine Two",
-        tag3: "TagLine Three",
-      },
-    ],
+    tag1: "tag Line One",
+    tag2: "tagLine Two",
+    tag3: "TagLine Three",
     serviceAnalysis: "Some Text about service analysis",
     serviceDevelopment: "Some Text about  service Development",
     ServiceDelivery: "Some Text about Service Delivery",
@@ -164,13 +147,9 @@ const allServices = [
       "Our team of experienced test engineers and developers leverage their knowledge to check and validate your application for bugs and defects to smoothen your development. ",
     serviceImage:
       "img/demos/digital-agency-2/our-services/manualTestingService.jpg",
-    sercicetagLines: [
-      {
-        tag1: "tag Line One",
-        tag2: "tagLine Two",
-        tag3: "TagLine Three",
-      },
-    ],
+    tag1: "tag Line One",
+    tag2: "tagLine Two",
+    tag3: "TagLine Three",
     serviceAnalysis: "Some Text about service analysis",
     serviceDevelopment: "Some Text about  service Development",
     ServiceDelivery: "Some Text about Service Delivery",
@@ -189,13 +168,11 @@ const allServices = [
       "Automated testing is a great way to optimize QA resources.  Vis Group will work with you to create a custom automation testing schedule, provide quick feedback on weak spots, and share ideas for software improvement. Thus, you’ll be able to collect meaningful data for the development team, accelerate software updates, and fast-track product releases.",
     serviceImage:
       "img/demos/digital-agency-2/our-services/automationTestingService.jpg",
-    sercicetagLines: [
-      {
-        tag1: "Automated QA managed Services",
-        tag2: "we cover wide range of technology stack",
-        tag3: "Higher testing and efficiency",
-      },
-    ],
+
+    tag1: "Automated QA managed Services",
+    tag2: "we cover wide range of technology stack",
+    tag3: "Higher testing and efficiency",
+
     serviceAnalysis: "Some Text about service analysis",
     serviceDevelopment: "Some Text about  service Development",
     ServiceDelivery: "Some Text about Service Delivery",
@@ -214,13 +191,9 @@ const allServices = [
       "So, Hire us for your digital transformation adventure; we will make it a smooth ride for you. One of the most visible advantages of a custom solution is that it eliminates any further investments in the shape of commercial-of-the-shelf products. ",
     serviceImage:
       "img/demos/digital-agency-2/our-services/SWdevelopmentService.jpg",
-    sercicetagLines: [
-      {
-        tag1: "tag Line One",
-        tag2: "tagLine Two",
-        tag3: "TagLine Three",
-      },
-    ],
+    tag1: "tag Line One",
+    tag2: "tagLine Two",
+    tag3: "TagLine Three",
     serviceAnalysis: "Some Text about service analysis",
     serviceDevelopment: "Some Text about  service Development",
     ServiceDelivery: "Some Text about Service Delivery",
@@ -236,6 +209,9 @@ for (singleService of allServices) {
       ElserviceParaThree.textContent = `${singleService.servicePara3}`;
       ElserviceParaFour.textContent = `${singleService.servicePara4}`;
       ElserviceImage.src = `${singleService.serviceImage}`;
+      ElserviceTag1.textContent = `${singleService.tag1}`;
+      ElserviceTag2.textContent = `${singleService.tag2}`;
+      ElserviceTag3.textContent = `${singleService.tag3}`;
     }
   }
 }
